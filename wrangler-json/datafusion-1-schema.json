@@ -1,0 +1,27 @@
+{
+  "name": "MyClass",
+  "type": "record",
+  "namespace": "com.acme.avro",
+  "fields":[
+    {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "first_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "last_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "dob",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
+}
